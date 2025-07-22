@@ -2,8 +2,8 @@ ReplicaNumber: 3
 
 containers:
   containerPort: 8080
-  image: 'quay.io/talya_zilca/app:v2'
-  tag: 'base'
+  image: 'quay.io/talya_zilca/app'
+  tag: 'v2'
 
 service:
   servicePort: 8080
