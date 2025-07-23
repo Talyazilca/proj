@@ -1,5 +1,5 @@
 apiVersion: v2
-name: workshop-test
+name: proj
 description: A Helm chart for Kubernetes
 type: application
 dependencies:
@@ -8,7 +8,7 @@ dependencies:
     version: "1.0.0"
     alias: deploy1
 
-  - name: workshop-test
+  - name: proj
     repository: "oci://ghcr.io/talyazilca"
     version: 1.0.1
     alias: deploy2
